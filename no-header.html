@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+
+
+<!-- footer-wrap -->
+<div id="footer-wrap" style="visibillity:hidden" class="content-wrap">
+{fotter}
+</div>
+<!-- end footer-wrap -->
+  <div class="wrapper">
+    <div class="cento-header">
+      <div class="container">
+        <div class="logo">{logo}</div>
+        <label class="hamburger"><span></span></label>
+      </div>
+      <div class="nav-wrap">
+        <div class="container">
+          <div class="nav desktop-nav">{menu}</div>
+        </div><!-- end .container -->
+      </div><!-- end .nav-wrap -->
+    </div><!-- end .header -->
+
+    <div class="content-wrap">
+      {{#sections}}
+        <div class="container">{content}</div>
+      {{/sections}}
+    </div><!-- end content-wrap -->
+	
+<div id="footer" style="visibility:hidden">{footer}</div>
+
+    <div class="footer-wrap">
+      <div class="container">
+            <div class="footer">{footer}</div>
+      </div><!-- end container -->
+    </div><!-- end footer-wrap -->
+  </div>
+
+  <div class="nav mobile-nav">{menu}</div>
+
+
+<br><br>
+<div align="center"> &copy; 2017 
+<a href="http://csblacklist.com/"> CSBlackList </a> | 
+<a href="https://twitter.com/CsBlackListCom"> Contact </a> 
+</div> 
+<div id="footer" style="visibility:hidden">{footer} </div>
+
+  <script type="text/javascript" src="/files/theme/plugins.js"></script>
+  <script type="text/javascript" src="/files/theme/custom.js"></script>
+
+<body class='  wsite-theme-light'>
+</body>
+</html>
